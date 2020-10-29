@@ -1,0 +1,53 @@
+.section{
+  flex-wrap: wrap;   
+}
+.section .div{
+  width:200px;
+  margin-left:10px;
+
+}
+.section .div img{
+  width:110px;
+  padding-left:20px;
+}
+.section #div{
+  display:flex;
+    flex-direction: row;
+}
+section::before{
+  width:100%;
+}
+.container{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container #image{
+  align-items: center;
+  justify-content: center;
+}
+.section1 h1{
+  font-size:20px;
+}
+.section1{
+  flex-wrap: wrap;
+  padding-top:80px;
+}
+.section1 p{
+  font-size: 10px;
+  padding-top: 24px;
+  padding-bottom: 10px;
+}    
+.btn{
+  margin:5px;
+  padding:05px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:8px;
+  font-weight: bold;
+}
+#contact form .cl input{
+  width:250px;
+}
+#client p{
+  margin-left:20px;
+}

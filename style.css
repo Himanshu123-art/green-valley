@@ -44,7 +44,7 @@ a:hover{
      left:0px;
      content:"";
      background:url(tomato.jpg);
-     background-size: contain;
+     background-size: cover;
      height:90%;
      width:100%;
      z-index:-1;
